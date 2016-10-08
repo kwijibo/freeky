@@ -21,4 +21,4 @@ const dispatch = pairs =>
   }
 
 
-module.exports = { dispatch }
+module.exports = dispatch 
