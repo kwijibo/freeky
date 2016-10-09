@@ -4,7 +4,7 @@ const {Either, Left, Right} = require('./either')
 const {Maybe, Just, Nothing} = require('./maybe')
 const {ContType, Cont} = require('./cont')
 const {State} = require('./state')
-const {dispatch} = require('./interpret')
+const dispatch = require('./interpret')
 const Monad = require('./monad')
 
 // some nt's, but where to stash these?
