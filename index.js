@@ -4,7 +4,7 @@ module.exports = {
   Maybe: require('./maybe'),
   Cont: require('./cont'),
   State: require('./state'),
-  dispatch: require('./interpret'),
+  dispatch: require('./interpret').dispatch,
   Monad: require('./monad'),
   Free: require('./free'),
   liftF: require('./free').liftF
